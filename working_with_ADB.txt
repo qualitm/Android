@@ -1,12 +1,13 @@
 How to make screenshot?
+Screenshots should be taken only in png, other formats are not supported 
 
-adb shell screencap /sdcard/Download/screenshot1.jpg
+adb shell screencap /sdcard/Download/screenshot1.png
 ==================================================================================================
 How to download screenshot to PC?
 
-adb pull 
+adb pull /sdcard/Download/screenshot1.png C:\screenshots
 ==================================================================================================
-
+How to make screencast
 ==================================================================================================
 
 
