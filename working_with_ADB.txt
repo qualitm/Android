@@ -8,6 +8,7 @@ How to download screenshot to PC?
 adb pull /sdcard/Download/screenshot1.png C:\screenshots
 ==================================================================================================
 How to make screencast
+adb shell screenrecord /sdcard/Download/demo.mp4 --time-limit 3
 ==================================================================================================
 
 
